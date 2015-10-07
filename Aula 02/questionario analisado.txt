@@ -1,0 +1,121 @@
+30 inquiridos
+
+
+>>>Idade
+
+Metade (15) com menos de 60 anos.
+8 de 60 a 69 anos.
+6 de 70 a 79 anos.
+1 com mais de 90.
+
+
+>>>Ensino
+
+Dos com menos de 60 anos, a maior parte tem ensino superior ou secundário, um apenas com ensino básico.
+Dos 8 com 60 a 69 anos, 4 têm ensino secundário e 2 liceu, 2 têm quarta classe.
+Dos 6 com 70 a 79 anos, 5 têm apenas a quarta classe, 1 tem liceu.
+
+
+>>>Cursos sénior
+
+Apenas 3 inquiridos frequentaram cursos, todos com idades entre 60 e 69 anos.
+
+
+>>>Aprender
+
+Pesquisas na internet: maioritariamente pessoas com menos de 60 anos
+Aulas com professor/Livros/Documentários televisivos: bem distribuído pelas idades
+Uma pessoa disse "por observação", que é uma resposta interessante e se relaciona com aulas leccionadas por vídeos demonstrativos.
+
+
+>>>Dispositivos electrónicos
+
+Todos já usaram
+
+
+>>>Dispositivos que usam
+
+PC fixo: popular entre pessoas com menos de 60 anos
+PC portátil: popular entre os segmentos até 60 anos, e de 60 a 69 anos.
+Telemóvel: o único dispositivo para a maior parte das pessoas com entre 70 e 79 anos
+Smartphone: mais popular com pessoas com menos de 60 anos e entre 60 e 69 anos, substituindo o telemóvel
+Tablet: com mais popularidade entre pessoas com menos de 60 anos
+Ipod/MP3: utilizado pelo inquirido de 90 anos, que também adere a todos os outros dispositivos, e por 2 com menos de 60 anos; provavelmente substituído pelos smartphones
+
+
+>>>Dificuldade
+
+< 60 : Facilidade com todas as tecnologias
+60-69 : Grandes dificuldades ou desconhecimento de como usar dispositivos electrónicos; uma pessoa com mais facilidade em todos; todos sabem usar telemóveis simples (não smartphones)
+70-79 : Dificuldades ou desconhecimento de como usar dispositivos electrónicos; os telemóveis (não smartphone) não se mostram fáceis de usar
+> 90 : Tudo é fácil (outlier)
+
+
+>>>Frequência de uso dos dispositivos
+
+Diariamente, tirando 3 pessoas de idades entre 60 e 79 anos, que usam 2 a 3 vezes por semana.
+
+
+>>>Aplicações populares (opcional)
+
+Facebook popular até 69 anos (entre outras redes sociais estilo Instagram)
+Ler jornais
+Aplicações de escritório e Office
+
+
+>>>Cursos online
+
+4 já frequentaram (2 com menos de 60 anos, 1 com 60-69 anos, 1 com +90 anos)
+
+
+>>>Costuma usar internet para pesquisar informação
+
+22 sim, 8 não
+
+< 60 : todos os 15 usam
+60-69 : 6 usam, 2 não
+70-79 : 1 usa, 5 não
+> 90: não (o único inquirido desta idade, que diz utilizar bastantes dispositivos
+
+
+>>>Ler artigos científicos online
+
+16 sim, 14 não
+
+< 60 : 10 sim, 5 não
+60-69 : 5 sim, 3 não
+70-79 : 6 não
+> 90: sim
+
+
+>>>Vídeos online
+
+21 sim, 9 não
+
+< 60 : 14 sim, 1 não
+60-69 : 6 sim, 2 não
+70-79 : 1 sim, 5 não
+> 90: não
+
+
+>>>Compras online
+
+16 sim, 14 não
+
+< 60 : 13 sim, 2 não
+60-69 : 2 sim, 6 não
+70-79 : 6 não
+> 90: sim
+
+
+>>>Modos de pagamento (sim a compras online)
+
+Multibanco - 12 (10 para <60 anos, 1 para 60-69)
+Transferência bancária - 10
+Cartão de crédito - 7 (5 para <60anos, 1 para 60-69)
+Paypal - 6 (4 para <60 anos, 1 para 60-69)
+MBnet - 3 
+SafeCard - 2
+Outro - "nenhum" no caso do de 90 anos que se acha engraçadinho e também inseriu os outros todos
+
+Casos notáveis: a pessoa com 90 anos, curso superior, gosta de aprender de todos os modos, proficiente com todas as tecnologias e aplicações populares (redes sociais) mas que não usa internet e não paga o que compra.
