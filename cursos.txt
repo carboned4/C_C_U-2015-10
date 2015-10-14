@@ -1,49 +1,85 @@
 Tecnologia
--Skype
--Facebook
--Google
--Gmail
--Outlook
--Twitter
--Word
--Powerpoint
+x-Skype
+x-Facebook
+x-Google
+x-Gmail
+x-Outlook
+x-Twitter
+x-Word
+x-Powerpoint
+x-Excel
+-Pen
 
 Jogos de mesa
--Damas
--Xadrez
--Cartas
--MonopÛlio
+x-Damas
+x-Xadrez
+x-Cartas
+x-Monopolio
+x-Jogos de tabuleiro
 
 LÌnguas
--InglÍs
--FrancÍs
--Alem„o
+x-Ingles
+x-Frances
+x-Alemao
+x-Espanhol
+x-Mandarin
+x-Italiano
+
 
 Artes
--Fotografia
--Pintura
--Desenho
--Arquitectura
+x-Fotografia
+x-Pintura
+x-Desenho
+x-Arquitectura
 
 Artesanato
--Tricot
--Costura
--Barro
+x-Tricot
+x-Costura
+x-Olaria
+x-Bordar
+x-Tapetes de arraiolos
 
-M˙sica
--Flauta
--Guitarra
--Violino
--Piano
+Musica
+x-Flauta
+x-Guitarra
+x-Violino
+x-Piano
 
-Sa˙de
--AlimentaÁ„o
--Primeiros socorros
--RessuscitaÁ„o
--Auto-defesa
+Saude
+x-Alimentacao
+x-Primeiros socorros
+x-Reanimacao
+x-Auto-defesa
+-Dicas de relaxamento
+-Medicina tradicional
 
-FinanÁas
--Investimento
--IRS
--Gest„o
--FinanÁas pessoais
+Financas
+x-Investimento
+x-IRS
+x-Gestao
+x-Financas pessoais
+
+Desporto
+x-Ginastica
+x-Alongamentos
+x-Yoga
+
+Escola
+x-História
+x-Ciência
+
+Hobbies
+x-Caça
+x-Pesca
+
+Cuidados
+x-Moda
+x-Maquilhagem
+
+x-Culinária
+
+x-Truques para o quotidiano (aprender dicas e curiosidades que ajudam nas tarefas do nosso dia a dia)
+
+
+
+
