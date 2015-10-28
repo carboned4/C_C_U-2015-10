@@ -1,4 +1,6 @@
-letras grandes
+﻿letras grandes
 sem publicidade, pois distrai
 manter o foco no que interessa
 não ter texto muito condensado
+texto bastante explícito em relação ao que faz ("concluir registo na plataforma" em vez de "terminar")
+vocabulário adaptado aos idosos (nada de interface e layout e o caraças)
