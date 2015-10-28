@@ -1,0 +1,35 @@
+Requisitos comuns dos três cenários:
+
+Users
+-> Terem conhecimento do que é a internet e do conceito email.
+-> Saberem ler e escrever (Eventualmente se quiserem usar o chat).
+-> Possuirem um aparelho tecnológico que lhes permita aceder ao site.
+
+Environment
+-> (falta...)
+
+Data
+-> Uma conta de um utilizador deve de possuir informações sobre o nome, a
+password e o email do utilizador.
+-> Conteúdos sobre as aulas devem de ser revistos no fim do curso, ou em
+perídos de tempo considerados(5 em 5 meses), para casos de actualização sobre
+a matéria da aula.
+-> Os vídeos (video-chamadas) sobre as aulas, devem de ser ilustrados como se
+ilustrasse-mos um directório: Categoria, Sub-Categoria, aula1. Exemplo:
+Tecnologia, Skype, aula 5.
+
+Functional (pode-se meter mais...)
+-> Possuir um chat que permita aos utilizadores interagirem com o professor(es).
+-> Ter uma sessão de login para que os utilizadores possa aceder aos seus
+dados. Essa sessão deve de possuir um login automático para facilitar o seu
+uso.
+-> As transições de pagamento devem de ser feitas de maneira segura, de maneira
+a garantir a privacidade do utilizdores.
+
+Usability
+-> O site deve de possuir escrita que seja fácil para os utilizadores perceber
+e ler, isto é, possuir frases curtas, mas que se destaquem no ecrã.
+-> O conteúdo sobre a aula deve de ser exposto de maneira atractiva.
+-> O utilizador deve de se sentir seguro com a sua conta e as formas de pagamento.
+-> Dar a sensação de ser um site que seja fácil de se usar derivado às ajudas
+fornecidas no chat.
