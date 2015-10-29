@@ -14,7 +14,7 @@ password do utilizador.
 períodos de tempo considerados(5 em 5 meses), para casos de actualização sobre
 a matéria da aula.
 -> Os vídeos (video-chamadas) sobre as aulas, devem ser ilustrados como se
-ilustrassemos um directório: Categoria, Sub-Categoria, aula1. Exemplo:
+ilustrássemos um directório: Categoria, Sub-Categoria, aula1. Exemplo:
 Tecnologia, Skype, aula 5.
 
 Functional (pode-se meter mais...)
