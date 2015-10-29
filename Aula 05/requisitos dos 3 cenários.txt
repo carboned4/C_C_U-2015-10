@@ -1,21 +1,20 @@
 Requisitos comuns dos três cenários:
 
 Users
--> Terem conhecimento do que é a internet e do conceito email.
 -> Saberem ler e escrever (Eventualmente se quiserem usar o chat).
--> Possuirem um aparelho tecnológico que lhes permita aceder ao site.
+-> Possuirem um dispositivo electrónico que lhes permita aceder à plataforma.
 
 Environment
--> (falta...)
+-> O website/plataforma deve considerar, para cada máquina que lhe acede, o tipo de uso que lhe vai ser dado, se será um computador público ou se será privado (neste caso, não deve haver autol-login), provavelmente sob a forma de cookies guardados na máquina cliente.
 
 Data
--> Uma conta de um utilizador deve de possuir informações sobre o nome, a
-password e o email do utilizador.
--> Conteúdos sobre as aulas devem de ser revistos no fim do curso, ou em
+-> Uma conta de um utilizador deve de possuir informações sobre o nome e a
+password do utilizador.
+-> Conteúdos sobre as aulas devem ser revistos no fim do curso, ou em
 perídos de tempo considerados(5 em 5 meses), para casos de actualização sobre
 a matéria da aula.
--> Os vídeos (video-chamadas) sobre as aulas, devem de ser ilustrados como se
-ilustrasse-mos um directório: Categoria, Sub-Categoria, aula1. Exemplo:
+-> Os vídeos (video-chamadas) sobre as aulas, devem ser ilustrados como se
+ilustrassemos um directório: Categoria, Sub-Categoria, aula1. Exemplo:
 Tecnologia, Skype, aula 5.
 
 Functional (pode-se meter mais...)
@@ -23,13 +22,16 @@ Functional (pode-se meter mais...)
 -> Ter uma sessão de login para que os utilizadores possa aceder aos seus
 dados. Essa sessão deve de possuir um login automático para facilitar o seu
 uso.
--> As transições de pagamento devem de ser feitas de maneira segura, de maneira
-a garantir a privacidade do utilizdores.
+-> As transições de pagamento devem de ser feitas de maneira segura, de maneira a garantir a privacidade do utilizadores.
 
 Usability
--> O site deve de possuir escrita que seja fácil para os utilizadores perceber
-e ler, isto é, possuir frases curtas, mas que se destaquem no ecrã.
+-> O site deve possuir escrita que seja fácil para os utilizadores perceber e ler, isto é, possuir frases curtas e pouco condensadas, mas que se destaquem no ecrã.
+-> O aspecto do texto em si deve facilitar a leitura, com tipos de letra simples e sem serifas, e com tamanho de letra que se adapte às várias capacidades visuais dos utilizadores.
 -> O conteúdo sobre a aula deve de ser exposto de maneira atractiva.
--> O utilizador deve de se sentir seguro com a sua conta e as formas de pagamento.
+-> O utilizador deve sentir-se seguro com a sua conta e as formas de pagamento.
 -> Dar a sensação de ser um site que seja fácil de se usar derivado às ajudas
 fornecidas no chat.
+-> O vocabulário utilizado deve ser adequado aos utilizadores principais, com recorrência a expressões familiares e evitando estrangeirismos e palavras mais técnicas.
+-> O texto que acompanha elementos gráficos, por exemplo dentro botões ou as descrições de passos, deve ter a sua informação bem explicitada, sem ambiguidades (em vez de "Terminar", usar "Concluir o registo na plataforma").
+-> O aspecto das janelas de chat deve ser semelhante a outros populares, como por exemplo do facebook, para que os utilizadores possam estabelecer um paralelismo.
+-> A publicidade inserida deve estar identificada como tal e não deve chamar mais a atenção do que outros elementos gráficos importantes.
