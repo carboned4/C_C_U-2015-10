@@ -1,0 +1,8 @@
+workspace:
+istoutsystemsg18.outsystemscloud.com
+
+username:
+ist.outsystems+g18@gmail.com
+
+password:
+gpp6g2ky
