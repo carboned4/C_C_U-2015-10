@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title id="title">Perfil de conta - Idade para Aprender</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style-contaprof.css" />
+	</head>
+	<body>
+		<div id="exterior" class="exterior">
+			
+			<div id="menu" class="menu">
+				
+				<ul id="menubarleft" class="menubarleft">
+					<li class="menuoption_current">
+						Informação pessoal
+					</li>
+					<li class="menuoption">
+						<select id="vercursos" onchange="checkinput()">
+							<option value="vc" selected>Ver cursos</option>
+							<option value="ql">Que lecciono</option>
+							<option value="freq">Mercedes</option>
+							<option value="real">Audi</option>
+							<option value="fav">Favoritos</option>
+							<option value="criar">Criar curso +</option>
+						</select>
+					</li>
+					<li class="menuoption">
+						Personalizar conta
+					</li>
+				</ul>
+				<ul id="menubarright" class="menubarright">
+					<li class="menuoption">
+						Voltar para página inicial
+					</li>
+					<li class="menuoption">
+						Terminar a sessão na conta
+					</li>
+				</ul>
+			</div>
+			<hr/>
+			
+			<div id="mainstuff" class="mainstuff">
+				<div class="breadcrumbs">
+					<span class="breadcrumbshead">Encontra-se aqui:</span>
+					<a href="contaprof.html">Conta</a> >
+					<a href="contaprof.html">Informação pessoal</a>
+				</div>
+				
+				
+				
+				<div style="width:40%;display:inline-block;position:relative;left:5%">
+					<p> Fotografia:</p>
+					<img style="max-width:80%;height:200px" src="https://i.imgur.com/tyNwowg.jpg">
+					<span><br>Alterar fotografia</span>
+					<input type="text">
+					<span><br><br>[ ] Permitir que a minha informação de conta seja visível por outros utilizadores<br></span>
+					<button>Confirmar alterações</button>
+				</div>
+				<div class="categorylistcontainer" style="width:45%;display:inline;float:right">
+					<ul class="categorylist" style="overflow-y:scroll;height:290px">
+						<p><strong>Informação pessoal:</strong></p>
+						<p>Nome de utilizador: </p>
+						<p>Palavra-passe: hunter2</p>
+						<p>Nome completo: Harold</p>
+						<p>Tipo de conta: Professor</p>
+						<p>Grau de ensino: Mestrado</p>
+						<p>Informação sobre actividades:</p>
+						<p>whiskas saquetas</p>
+					</ul>
+				</div>
+			
+			</div>
+			
+			
+			<hr/>
+			<div id="footer" class="footer">
+				Contactos
+			</div>
+		</div>
+
+		<footer>
+			<script src="contaprof.js"></script>
+		</footer>
+	</body>
+</html>
