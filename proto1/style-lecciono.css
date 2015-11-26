@@ -75,7 +75,7 @@ p {
 	display: inline;
 	float: left;
 	border: 0pt solid transparent;
-	width: 70%;
+	width: 60%;
 	padding: 0;
     margin: 0;
 }
@@ -84,7 +84,7 @@ p {
 	display: inline;
 	float: right;
 	border: 0pt solid transparent;
-	width: 30%;
+	width: 50%;
 	padding: 0;
     margin: 0;
 }
