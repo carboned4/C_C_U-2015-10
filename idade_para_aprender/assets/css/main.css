@@ -1617,6 +1617,10 @@
 		padding: 0.6em 1.5em;
 	}
 
+    #find-more {
+        margin: 2.0em 0;
+    }
+
 		input[type="button"].icon:before,
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
@@ -1632,7 +1636,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #4dffa6;
+			background: #00994d;
 		}
 
 		input[type="button"]:active,
@@ -1908,11 +1912,11 @@
 				-ms-transition: background-color .25s ease-in-out;
 				transition: background-color .25s ease-in-out;
 				font-weight: 800;
-				letter-spacing: 0.025em;
+				letter-spacing: 0.015em;
 				color: #696969;
 				text-decoration: none;
 				border-radius: 6px;
-				padding: 0.5em 1em 0.5em 1em;
+				padding: 0.5em 1em 0.5em 0.2em;
 			}
 
 			#nav ul li > ul {
