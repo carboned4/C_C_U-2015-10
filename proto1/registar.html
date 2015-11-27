@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title id="title">Criar conta - Idade para Aprender</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style-index.css" />
+	</head>
+	<body>
+		<div id="exterior" class="exterior">
+			
+			<div id="menu" class="menu">
+			
+				<ul id="menubarleft" class="menubarleft">
+					<li class="menuoption">
+					<a href="index.html">Início</a>
+					</li>
+					<li class="menuoption">
+						Todos os cursos
+					</li>
+					<li class="menuoption">
+						Cursos mais recentes
+					</li>
+					<li class="menuoption">
+						<input type="text" value="Pesquisar curso por nome aqui" class="searchbar"><a href="search.html"><strong> -> </strong></a>
+					</li>
+				</ul>
+				<ul id="menubarright" class="menubarright">
+					<li class="menuoption">
+						<a href="login.html">Entrar na conta</a>
+					</li>
+					<li class="menuoption_current">
+						<a href="registar.html">Criar uma conta</a>
+					</li>
+				</ul>
+			</div>
+			<hr/>
+			<div class="categorylistcontainer" style="width:40%;position:relative;left:30%">
+					<ul class="categorylist" style="overflow-y:scroll;">
+						<p><strong>Insira informação para uma nova conta:</strong></p>
+						<p>Tipo de conta</p>
+						<select id="tipoconta" onchange="checkinput()">
+							<option value="aluno" selected>Aluno</option>
+							<option value="prof">Professor</option>
+						</select>
+						<p>Nome de utilizador: </p>
+						<input type="text">
+						<p>Palavra-passe:</p>
+						<input type="text"><br>
+						<p>Confirmar palavra-passe:</p>
+						<input type="text"><br>
+						<p>Nome completo: </p>
+						<input type="text">
+						<p>Email (insira se não tiver telemóvel):</p>
+						<input type="text"><br>
+						<p>Telemóvel (insira se não tiver email):</p>
+						<input type="text"><br><br>
+						<div id="infoprof" style="display:none">
+							<p>Grau de escolaridade</p>
+							<select id="tipoconta" onchange="checkinput()">
+								<option value="1" selected>4ª class</option>
+								<option value="2">Básico</option>
+								<option value="2">Secundário</option>
+								<option value="2">Licenciatura/Bacharelato</option>
+								<option value="2">Mestrado</option>
+								<option value="2">Doutoramento</option>
+							</select>
+							<p>Informações sobre as suas actividades</p>
+							<textarea rows="6" columns="50"></textarea>
+						</div>
+						<button onclick="concluirreg()">Concluir registo da conta</button>
+						<div id="sucessocontanova" style="display:none">
+							<p>Conta criada com sucesso</p>
+							<a href="index2.html"><button>Continuar</button></a>
+						</div>
+					</ul>
+				</div>
+			
+			<hr/>
+			<div id="footer" class="footer">
+				Contactos
+			</div>
+			
+			
+       
+		</div>
+		
+		<footer>
+			<script src="registar.js"></script>
+		</footer>
+	</body>
+</html>

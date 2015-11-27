@@ -1,17 +1,17 @@
 <html>
 	<head>
-		<title id="title">"agricultura" - Pesquisa Idade para Aprender</title>
+		<title id="title">Idade para Aprender</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style-search.css" />
+		<link rel="stylesheet" type="text/css" href="style-index.css" />
 	</head>
 	<body>
 		<div id="exterior" class="exterior">
 			
 			<div id="menu" class="menu">
-				
+			
 				<ul id="menubarleft" class="menubarleft">
-					<li class="menuoption">
-						<a href="index.html">Início</a>
+					<li class="menuoption_current">
+<a href="index.html">Início</a>
 					</li>
 					<li class="menuoption">
 						Todos os cursos
@@ -19,16 +19,16 @@
 					<li class="menuoption">
 						Cursos mais recentes
 					</li>
-					<li class="menuoption_current">
+					<li class="menuoption">
 						<input type="text" value="Pesquisar curso por nome aqui" class="searchbar"><a href="search.html"><strong> -> </strong></a>
 					</li>
 				</ul>
 				<ul id="menubarright" class="menubarright">
 					<li class="menuoption">
-						<a href="login.html">Entrar na conta</a>
+						<a href="contaprof.html">Ver perfil da conta</a>
 					</li>
 					<li class="menuoption">
-						<a href="registar.html">Criar uma conta</a>
+						<a href="index.html">Terminar sessão na conta</a>
 					</li>
 				</ul>
 			</div>
@@ -38,21 +38,34 @@
 				<div class="breadcrumbs">
 					<span class="breadcrumbshead">Encontra-se aqui:</span>
 					<a href="index.html">Início</a> >
-					<a href="">Pesquisa por nome</a>
 				</div>
 				
-				<div class="categorylistcontainer">
-					<p>Categorias de cursos</p class="categorylisttitle">
-					<ul class="categorylist">
-						<li class="categorylistitem">Categoria 1</li>
-						<li class="categorylistitem">Categoria 2</li>
-						<li class="categorylistitem">Categoria 3</li>
-						
-					</ul>
+				<div id="cursocima" style="height:300px">
+					<div style="width:30%;display:inline-block;position:relative;float:left">
+						<p> Vídeo de apresentação:</p>
+						<img src="video2.jpg" style="max-height:80%;width:80%"/>
+					</div>
+					<div class="categorylistcontainer" style="width:30%;display:inline;">
+						<span>Seja bem-vindo à plataforma</span>
+						<ul class="categorylist" style="overflow-y:scroll;height:250px">
+							<p>texto de apresentação</p>
+						</ul>
+					</div>
+					<div class="categorylistcontainer" style="width:30%;display:inline;float:right">
+						<span>Tire aqui as suas dúvidas sobre a plataforma:</span>
+						<ul class="categorylist" style="overflow-y:scroll;height:250px">
+							<p>Bom dia, em que posso ajudar?</p>
+							<p>Bom dia</p>
+							<p>Esta plataforma é legítima?</p>
+							<p>Sim</p>
+							<p>É muito cara?</p>
+							<p>Tem cursos a todos os preços, até grátis, e todos de qualidade certificada</p>
+						</ul>
+					</div>
 				</div>
-				
+				<hr>
 				<div class="searchcontents">
-					<p style="display:block;width:100%">Resultados da pesquisa por <span>"agricultura"</span></p>
+					<p style="display:block;width:100%">Cursos mais populares</p>
 					<!-- copy this for more results -->
 					<div class="courseresult">
 						<a href="cursoagricultura1.html">
@@ -78,14 +91,7 @@
 						<span>Categoria: Agricultura</span>
 					</div>
 					
-					<div class="courseresult">
-						<a href="cursoagricultura1.html">
-						<img class="resultimage" src="http://a.dilcdn.com/bl/wp-content/uploads/sites/8/babble-voices/ellen-seidman-1000-perplexing-things-about-parenthood/files/2013/05/get-kids-to-eat-veggies.jpg">
-						<span class="courseresulttitle">Máscaras faciais de beleza<br></span>
-						</a>
-						<span>Categoria: Agricultura</span>
-					</div>
-					<p class="moreresults">Mais resultados</p>
+					
 				</div>
 			</div>
 			
@@ -97,7 +103,7 @@
 		</div>
 
 		<footer>
-			<script src="search.js"></script>
+			<script src="index.js"></script>
 		</footer>
 	</body>
 </html>
