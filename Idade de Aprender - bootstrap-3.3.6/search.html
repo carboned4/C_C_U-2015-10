@@ -35,21 +35,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Início <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-list" ></i> Cursos</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais Recentes</a></li>
+                        <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Página inicial <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="#"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais recentes</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Procurar Curso">
+                            <input type="text" class="form-control" placeholder="Procurar curso por nome">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
                             </span>
                         </div>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Entrar Conta</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-plus-sign"></i> Criar Conta</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Entrar na conta</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-plus-sign"></i> Criar uma conta</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -61,22 +61,57 @@
                 
                 <div class="col-sm-4 col-md-3 col-lg-2">
                     <h4>Temas de cursos:</h4>
-                    <!--
-						http://www.w3schools.com/bootstrap/bootstrap_collapse.asp
-					
-					-->
-					<div align="center" class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item">
-                            <source src=movies/welcome.mp4 type=video/mp4>
-                        </video>
-                    </div>
+                    <div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ar livre</a>
+							</h4>
+						  </div>
+						  <div id="collapse1" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item">Agricultura</li>
+								<li class="list-group-item">Caça</li>
+								<li class="list-group-item">Pesca</li>
+						    </ul>
+						  </div>
+						</div>
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Saúde</a>
+							</h4>
+						  </div>
+						  <div id="collapse2" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item">Alimentação</li>
+								<li class="list-group-item">Primeiros socorros</li>
+								<li class="list-group-item">Reanimação</li>
+						    </ul>
+						  </div>
+						</div>
+						<div class="panel panel-default">
+						  <div class="panel-heading">
+							<h4 class="panel-title">
+							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Tecnologia</a>
+							</h4>
+						  </div>
+						  <div id="collapse3" class="panel-collapse collapse">
+							<ul class="list-group">
+								<li class="list-group-item">Aplicações de lazer</li>
+								<li class="list-group-item">Programas de escritório</li>
+								<li class="list-group-item">Redes sociais</li>
+						    </ul>
+						  </div>
+						</div>
+					</div> 
                 </div>
                 
                 <div class="col-sm-8 col-md-9 col-lg-10">
                     <h2>Resultados da pesquisa</h2>
                     
 					<div class="row">
-						<a href="#" >
+						<a href="agriculturainiciantes.html" >
 							<div class="col-sm-6 col-md-4">
 								<div class="thumbnail">
 									<img src="images/agricultura.jpg" alt="agricultura">
