@@ -35,3 +35,27 @@
 .curso-progress {
     color:#000;
 }
+
+.btn-desinscrever {
+    background-color:#b30000;
+    border-color:#b30000;
+}
+
+.btn-desinscrever:hover {
+    background-color:#800000;
+    border-color:#800000;
+}
+.btn-inscrever {
+    background-color:#669900;
+    border-color:#669900;
+}
+
+.btn-inscrever:hover {
+    background-color:#446600;
+    border-color:#446600;
+}
+
+.btn-inscrever:focus {
+    background-color:#446600;
+    border-color:#446600;
+}
