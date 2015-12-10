@@ -142,30 +142,136 @@
             <div class="row">
                 <div>
                     <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a href="#">Informação Pessoal</a></li>
-                        <li role="presentation"><a href="#">Cursos que Frequento</a></li>
-                        <li role="presentation"><a href="#">Cursos Realizados</a></li>
-                        <li role="presentation"><a href="#">Cursos que Gosto</a></li>
-                        <li role="presentation"><a href="#">Personalizar Conta</a></li>
-                        <li role="presentation"><a href="#">Sair da Conta</a></li>
+                        <li class="active"><a data-toggle="tab" href="#inf1">Informação Pessoal</a></li>
+                        <li><a data-toggle="tab" href="#inf2">Cursos que Frequento</a></li>
+                        <li><a data-toggle="tab" href="#inf3">Cursos Realizados</a></li>
+                        <li><a data-toggle="tab" href="#inf4">Cursos que Gosto</a></li>
+                        <li><a data-toggle="tab" href="#inf5">Personalizar Conta</a></li>
                     </ul>
                 </div>
             
             <br>
             
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/default.jpg" alt="Foto">
-                            <div class="caption">
-                                <p><a href="#" class="btn btn-primary" role="button">Alterar foto</a>
-                            </div>
+            <div class="tab-content">
+                <div id="inf1" class="tab-pane fade in active">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-3">
+                            <div class="thumbnail">
+                                <img src="images/default.jpg" alt="Foto">
+                                    <div class="caption">
+                                        <p><a href="#" class="btn btn-primary" role="button">Alterar foto</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-xs-4 col-md-6">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Nome de utilizador</label>
+                                    <div class="col-sm-10">
+                                        <p class="form-control-static">josé-pereira</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                            </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-4 col-md-2">
-                    ola
+                <div id="inf2" class="tab-pane fade">
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object"  height="128" width="128" src="images/agricultura.jpg" alt="agricultura">
+                                    </a>
+                        </div>
+                        <div class="media-body">
+                            <div class="col-sm-6 col-md-8">
+                            <h4 class="media-heading">Agricultura para Iniciantes</h4>
+                            <p>&emsp; &emsp; &emsp; Tópico: Agricultura</p>
+                            <p>Neste curso vai poder aprender um pouco das várias técnicas de agricultura e adubagem.</p>
+                            
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning curso-progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <span class="sr-only">60% Complete (warning)</span>
+                                    Progresso do curso
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object"  height="128" width="128" src="images/gaita.jpg" alt="sopro">
+                                    </a>
+                        </div>
+                        <div class="media-body">
+                            <div class="col-sm-6 col-md-8">
+                            <h4 class="media-heading">Instrumentos de Sopro - Iniciantes</h4>
+                            <p>&emsp; &emsp; &emsp; Tópico: Música</p>
+                            <p>Solte o músico que há dentro de si, venha aprender a tocar alguns instrumentos de sopro.</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning curso-progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                    <span class="sr-only">20% Complete (warning)</span>
+                                    Progresso do curso
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div id="inf3" class="tab-pane fade">
+                    
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <a href="#">
+                                <img class="media-object"  height="150" width="150" src="images/alimentacao.jpg" alt="Alimentacao" >
+                                    </a>
+                        </div>
+                        <div class="media-body">
+                             <div class="col-sm-6 col-md-10">
+                            <h4 class="media-heading">Alimentação e estilo de vida saudável</h4>
+                            <p>&emsp; &emsp; &emsp; Tópico: Saúde</p>
+                            <p>Neste curso vai aprender a fazer receitas saudáveis e práticas para o seu dia-a-dia e o seu estilo de vida.</p>
+                            <!-- Indicates a successful or positive action -->
+                            <div class="alert alert-success" role="alert">
+                                <a href="#" class="alert-link">Curso concluído com sucesso</a>
+                            </div>
+                        </div>
+                             </div>
+                    </div>
+                </div>
+                <div id="inf4" class="tab-pane fade">
+                    <div class="col-sm-6 col-md-6">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Cursos que gosto</div>
+                        <div class="panel-body">
+                            Adicione à sua conta cursos que gosta, para mais tarde fazer!
+                        </div>
+                    </div>
+                     </div>
+                </div>
+            
+            
+            <div id="inf5" class="tab-pane fade">
+                <div class="col-sm-6 col-md-6">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">Em desenvolvimento</div>
+                        <div class="panel-body">
+                            Pedimos desculpa pelo incómodo!
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
         </div>
 
                 
