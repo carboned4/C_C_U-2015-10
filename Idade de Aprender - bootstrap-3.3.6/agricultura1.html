@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-                    <title>Pesquisa - Idade de Aprender</title>
+                    <title>Aula 1 - Agricultura para Iniciantes - Idade de Aprender</title>
                     
                     <!-- Bootstrap -->
                     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Página inicial <span class="sr-only">(current)</span></a></li>
-                        <li class="active"><a href="#"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
                         <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais recentes</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
@@ -57,103 +57,98 @@
             </div><!-- /.container-fluid -->
         </nav>
         
-		
         <div class="container">
-            
+            <h2>Agricultura para Iniciantes - Introdução</h2>
+                    
             <div class="row">
                 
-                <div class="col-sm-4 col-md-3 col-lg-2">
-                    <h4>Temas de cursos:</h4>
-                    <div class="panel-group" id="accordion">
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ar livre</a>
-							</h4>
-						  </div>
-						  <div id="collapse1" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Agricultura</li>
-								<li class="list-group-item">Caça</li>
-								<li class="list-group-item">Pesca</li>
-						    </ul>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Saúde</a>
-							</h4>
-						  </div>
-						  <div id="collapse2" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Alimentação</li>
-								<li class="list-group-item">Primeiros socorros</li>
-								<li class="list-group-item">Reanimação</li>
-						    </ul>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Tecnologia</a>
-							</h4>
-						  </div>
-						  <div id="collapse3" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Aplicações de lazer</li>
-								<li class="list-group-item">Programas de escritório</li>
-								<li class="list-group-item">Redes sociais</li>
-						    </ul>
-						  </div>
-						</div>
-					</div> 
+                <div class="col-md-6">
+                    <h4>Vídeo de introdução:</h4>
+                    <!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
+					<div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src=movies/welcome.mp4 type=video/mp4>
+                        </video>
+                    </div>
                 </div>
                 
-                <div class="col-sm-8 col-md-9 col-lg-10">
-                    <h2>Resultados da pesquisa</h2>
-                    
-					<div class="row">
-						<a href="agriculturainiciantes.html" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/agricultura.jpg" alt="agricultura">
-										<div class="caption">
-											<h4>Agricultura para Iniciantes</4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Agricultura</h6>
-											<p>Neste curso vai poder aprender um pouco das várias técnicas de agricultura e adubagem.</p>
-										</div>
-								</div>
-							</div>
-						</a>
-						<a href="#" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/socorros.jpg" alt="Primeiros socorros">
-										<div class="caption">
-											<h4>Curso de primeiros socorros</h4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
-											<p>Neste curso vai poder aprender técnicas básicas de reanimação e cuidados médicos básicos.</p>
-										</div>
-								</div>
-							</div>
-						</a>
-						<a href="#" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/alimentacao.jpg" alt="Alimentacao">
-										<div class="caption">
-											<h4>Alimentação e estilo de vida saudável</h4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
-											<p>Neste curso vai aprender a fazer receitas saudáveis e práticas para o seu dia-a-dia e o seu estilo de vida.</p>
-										</div>
-								</div>
-							</div>
-						</a>
+                <div class="col-md-6">
+                    <a href="agriculturainscrito.html"><button type="button" class="btn btn-default pull-right">Desinscrever deste curso</button></a>
+                    <ul class="nav nav-tabs">
+						<li class="active"><a data-toggle="tab" href="#info1">Informação do curso</a></li>
+						<li><a data-toggle="tab" href="#info2">Professor</a></li>
+						<li><a data-toggle="tab" href="#info3">Fórum</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div id="info1" class="tab-pane fade in active">
+						  	<p class="text-justify">Nome do curso: Agricultura para Iniciantes</p>
+							<p class="text-justify">Dificuldade: Médio<p>
+							<p class="text-justify">Preço: Grátis</p>
+							<p class="text-justify">Descrição do curso</p>
+						</div>
+						<div id="info2" class="tab-pane fade">
+							<p class="text-justify">Nome: João da Fonseca Galhão</p>
+							<p class="text-justify">Grau de ensino: Licenciatura</p>
+							<p class="text-justify">Actividades: Pintor profissional de tectos de igreja</p>
+						</div>
+						<div id="info3" class="tab-pane fade">
+							<p class="text-justify">Bem-vindo à nossa plataforma de cursos online!</p>
+							<p class="text-justify">Connosco vai poder frequentar os mais variados cursos.
+							Visualize o nosso vídeo introdutório, onde explicamos como se pode inscrever na nossa plataforma e como pode frequentar os nossos cursos.</p>
+							<p class="text-justify">Se tiver mais dúvidas, por favor, não exite em contactar-nos, através da janela de dúvidas (posicionada do lado esquerdo) ou então através do telefone ou email.</p>
+						</div>
 					</div>
                 </div>
             </div>
             
+            <hr>
+            
+            <div class="row">
+                <div class="col-md-6">
+					<h4>Aulas do curso:</h4>
+					<div class="list-group">
+						<a href="agriculturainiciantes.html" class="list-group-item">
+							<div class="row">
+								<div class="col-md-2">imagem</div>
+								<div class="col-md-6">Introdução</div>
+								<div class="col-md-2">1:10</div>
+								<div class="col-md-2">Vista</div>
+							</div>
+						</a><a href="agricultura1.html" class="list-group-item active">
+							<div class="row">
+								<div class="col-md-2">imagem</div>
+								<div class="col-md-6">Aula 1 - Noções básicas</div>
+								<div class="col-md-2">4:20</div>
+								<div class="col-md-2">Não vista</div>
+							</div>
+						</a>
+						<a href="agricultura2.html" class="list-group-item">
+							<div class="row">
+								<div class="col-md-2">imagem</div>
+								<div class="col-md-6">Aula 2 - Preparar a terra</div>
+								<div class="col-md-2">6:66</div>
+								<div class="col-md-2">Não vista</div>
+							</div>
+						</a>
+						<a href="agricultura3.html" class="list-group-item">
+							<div class="row">
+								<div class="col-md-2">imagem</div>
+								<div class="col-md-6">Aula 3 - Plantar sementes</div>
+								<div class="col-md-2">5:16</div>
+								<div class="col-md-2">Não vista</div>
+							</div>
+						</a>
+					</div>
+                </div>
+				<div class="col-md-6">
+					<h4>Resumo da aula</h4>
+					<p class="text-justify">Lorem ipsum dolor sit amet</p>
+					<p class="text-justify">The right man in the wrong place can make all the difference in the world</p>
+					<p class="text-justify">There are more things in heaven and earth, Horatio, Than are dreamt of in your philosophy.</p>
+				</div>
+			
+            </div>
             
             <hr>
             
@@ -171,11 +166,11 @@
                 </div>
                 <div class="col-md-4">
                     <h3>Redes Sociais</h3>
-                    <p><a href="#" class="icon fa-twitter"><i class="fa fa-fw fa-twitter"></i><span>Twitter</span></a></p>
-                    <p><a href="#" class="icon fa-facebook"><i class="fa fa-fw fa-facebook"></i><span>Facebook</span></a></p>
-                    <p><a href="#" class="icon fa-instagram"><i class="fa fa-fw fa-instagram"></i><span>Instagram</span></a></p>
-                    <p><a href="#" class="icon fa-linkedin"><i class="fa fa-fw fa-linkedin"></i><span>Linkedin</span></a></p>
-                    <p><a href="#" class="icon fa-pinterest"><i class="fa fa-fw fa-pinterest"></i><span>Pinterest</span></a></p>
+                    <p><a href="#"><i class="fa fa-fw fa-twitter"></i><span>Twitter</span></a></p>
+                    <p><a href="#"><i class="fa fa-fw fa-facebook"></i><span>Facebook</span></a></p>
+                    <p><a href="#"><i class="fa fa-fw fa-instagram"></i><span>Instagram</span></a></p>
+                    <p><a href="#"><i class="fa fa-fw fa-linkedin"></i><span>Linkedin</span></a></p>
+                    <p><a href="#"><i class="fa fa-fw fa-pinterest"></i><span>Pinterest</span></a></p>
                 </div>
             </div>
             

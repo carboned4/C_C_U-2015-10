@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-                    <title>Agricultura para Iniciantes - Idade de Aprender</title>
+                    <title>Editar curso - Agricultura para Iniciantes - Idade de Aprender</title>
                     
                     <!-- Bootstrap -->
                     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,97 +58,141 @@
         </nav>
         
         <div class="container">
-            <h2>Agricultura para Iniciantes - Introdução</h2>
+            <h2>Editar curso "Agricultura para Iniciantes"</h2>
                     
             <div class="row">
-                
                 <div class="col-md-6">
-                    <h4>Vídeo de introdução:</h4>
-                    <!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
-					<div align="center" class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item">
-                            <source src=movies/welcome.mp4 type=video/mp4>
-                        </video>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <a href="agriculturainscrito.html"><button type="button" class="btn btn-primary pull-right">Inscrever neste curso</button></a>
-                    <ul class="nav nav-tabs">
-						<li class="active"><a data-toggle="tab" href="#info1">Informação do curso</a></li>
-						<li><a data-toggle="tab" href="#info2">Professor</a></li>
-						<li><a data-toggle="tab" href="#info3">Fórum</a></li>
-					</ul>
+                    <h4>Informação do curso:</h4>
+					<div class="form-group">
+						<label for="nomecurso">Nome do curso:</label>
+						<input type="text" class="form-control" id="nomecurso" value="Agricultura para Iniciantes">
+					</div>
+					<div class="form-group">
+						<label for="descricaocurso">Descrição do curso:</label>
+						<textarea class="form-control" rows="5" id="descricaocurso">
+Lorem ipsum dolor sit amet
 
-					<div class="tab-content">
-						<div id="info1" class="tab-pane fade in active">
-						  	<p class="text-justify">Nome do curso: Agricultura para Iniciantes</p>
-							<p class="text-justify">Dificuldade: Médio<p>
-							<p class="text-justify">Preço: Grátis</p>
-							<p class="text-justify">Descrição do curso</p>
-						</div>
-						<div id="info2" class="tab-pane fade">
-							<p class="text-justify">Nome: João da Fonseca Galhão</p>
-							<p class="text-justify">Grau de ensino: Licenciatura</p>
-							<p class="text-justify">Actividades: Pintor profissional de tectos de igreja</p>
-						</div>
-						<div id="info3" class="tab-pane fade">
-							<p class="text-justify">Bem-vindo à nossa plataforma de cursos online!</p>
-							<p class="text-justify">Connosco vai poder frequentar os mais variados cursos.
-							Visualize o nosso vídeo introdutório, onde explicamos como se pode inscrever na nossa plataforma e como pode frequentar os nossos cursos.</p>
-							<p class="text-justify">Se tiver mais dúvidas, por favor, não exite em contactar-nos, através da janela de dúvidas (posicionada do lado esquerdo) ou então através do telefone ou email.</p>
-						</div>
+The right man in the wrong place can make all the difference in the world
+
+There are more things in heaven and earth, Horatio, Than are dreamt of in your philosophy.
+						</textarea>
 					</div>
-                </div>
-            </div>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-md-6">
+					<div class="form-group">
+						<label for="nomecurso">Preço a aplicar a novas inscrições (€):</label>
+						<input type="text" class="form-control" id="nomecurso" value="0,00">
+					</div>
+					<div class="form-group" role="group">
+						<label for="dificuldadecurso">Dificuldade do curso:&nbsp</label>
+						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Fácil</label>
+						<label class="radio-inline"><input type="radio" name="dificuldadecurso" checked="checked">Médio</label>
+						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Difícil</label>
+					</div>
+					
+					<div class="form-group" role="group">
+						<label for="visibilidadecurso">Visibilidade do curso ao público:&nbsp</label>
+						<label class="radio-inline"><input type="radio" name="visibilidadecurso" checked="checked">Publicado</label>
+						<label class="radio-inline"><input type="radio" name="visibilidadecurso">Oculto</label>
+					</div>
+					
+					
+					<a href="agriculturainscrito.html"><button type="button" class="btn btn-default">Cancelar alterações às informações</button></a>
+					<a href="agriculturainscrito.html"><button type="button" class="btn btn-primary pull-right">Confirmar alterações às informações</button></a>
+					
+					<hr>
+					
 					<h4>Aulas do curso:</h4>
-					<div class="list-group">
-						<a href="agriculturainiciantes.html" class="list-group-item active">
+					<ul class="list-group">
+						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-2">imagem</div>
-								<div class="col-md-6">Introdução</div>
-								<div class="col-md-2">1:10</div>
-								<div class="col-md-2">Vista</div>
-							</div>
-						</a>
-						<a href="#" class="list-group-item disabled">
-							<div class="row">
-								<div class="col-md-2">imagem</div>
+								<div class="col-md-1">img</div>
 								<div class="col-md-6">Aula 1 - Noções básicas</div>
-								<div class="col-md-2">4:20</div>
-								<div class="col-md-2">Inscrever p/ ver</div>
+								<div class="col-md-1">4:20</div>
+								<div class="col-md-2">Publicada</div>
+								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
 							</div>
-						</a>
-						<a href="#" class="list-group-item disabled">
+						</li>
+						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-2">imagem</div>
+								<div class="col-md-1">img</div>
 								<div class="col-md-6">Aula 2 - Preparar a terra</div>
-								<div class="col-md-2">6:66</div>
-								<div class="col-md-2">Inscrever p/ ver</div>
+								<div class="col-md-1">6:66</div>
+								<div class="col-md-2">Publicada</div>
+								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
 							</div>
-						</a>
-						<a href="#" class="list-group-item disabled">
+						</li>
+						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-2">imagem</div>
+								<div class="col-md-1">img</div>
 								<div class="col-md-6">Aula 3 - Plantar sementes</div>
-								<div class="col-md-2">5:16</div>
-								<div class="col-md-2">Inscrever p/ ver</div>
+								<div class="col-md-1">5:16</div>
+								<div class="col-md-2">Publicada</div>
+								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
 							</div>
-						</a>
-					</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="criaraula.html"><button type="button" class="btn btn-primary pull-right">Adicionar aula</button></a>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+					
+					
                 </div>
-				<div class="col-md-6">
-					<h4>Resumo da aula</h4>
-					<p class="text-justify">Lorem ipsum dolor sit amet</p>
-					<p class="text-justify">The right man in the wrong place can make all the difference in the world</p>
-					<p class="text-justify">There are more things in heaven and earth, Horatio, Than are dreamt of in your philosophy.</p>
+				
+				<div class="col-md-5 pull-right">
+                    <div class="row">
+						<h4>Fotografia de capa do curso:</h4>
+						<!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
+						<div class="thumbnail">
+							<img src="images/agricultura.jpg" alt="agricultura">
+						</div>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="input-group">
+								<label for="fotoupload">Escolher fotografia do computador:</label>
+								<input type="text" class="form-control" placeholder="C:\Windows\System32" id="fotoupload">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-folder-open"></i></button>
+								</span>
+							</div>
+							<div class="input-group">
+								<label for="fotoupload">Escolher fotografia da Internet:</label>
+								<input type="text" class="form-control" placeholder="http://imgur.com/" id="fotoupload">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-link"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<hr>
+					<div class="row">
+						<h4>Vídeo de introdução do curso:</h4>
+						<!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
+						<div align="center" class="embed-responsive embed-responsive-16by9">
+							<video controls class="embed-responsive-item">
+								<source src=movies/welcome.mp4 type=video/mp4>
+							</video>
+						</div>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="input-group">
+								<label for="fotoupload">Escolher vídeo do computador:</label>
+								<input type="text" class="form-control" placeholder="C:\Windows\System32" id="fotoupload">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-folder-open"></i></button>
+								</span>
+							</div>
+							<div class="input-group">
+								<label for="fotoupload">Escolher vídeo da Internet:</label>
+								<input type="text" class="form-control" placeholder="http://www.youtube.com/" id="fotoupload">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-link"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
 				</div>
-			
             </div>
             
             <hr>
