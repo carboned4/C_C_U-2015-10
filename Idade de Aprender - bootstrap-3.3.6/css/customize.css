@@ -1,1 +1,29 @@
 /*-----------------Insert Code Here------------------*/
+
+.modal-content {
+    padding: 0px 20px 20px 20px;
+}
+
+.form-login {
+    margin: 10px 0px 10px 0px;
+}
+
+.login-body {
+    text-align: center;
+}
+
+.login-footer {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.register-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.register-footer {
+    text-align: center;
+}
