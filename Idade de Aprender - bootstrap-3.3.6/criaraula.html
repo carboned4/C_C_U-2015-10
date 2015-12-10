@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-                    <title>Editar curso - Agricultura para Iniciantes - Idade de Aprender</title>
+                    <title>Criar aula - Agricultura para Iniciantes - Idade de Aprender</title>
                     
                     <!-- Bootstrap -->
                     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,92 +58,36 @@
         </nav>
         
         <div class="container">
-            <h2>Editar curso "Agricultura para Iniciantes"</h2>
+            <h2>Criar aula - curso "Agricultura para Iniciantes"</h2>
                     
             <div class="row">
                 <div class="col-md-6">
-                    <h4>Informação do curso:</h4>
+                    <h4>Informação da aula:</h4>
 					<div class="form-group">
-						<label for="nomecurso">Nome do curso:</label>
-						<input type="text" class="form-control" id="nomecurso" value="Agricultura para Iniciantes">
-					</div>
-					<div class="form-group">
-						<label for="descricaocurso">Descrição do curso:</label>
-						<textarea class="form-control" rows="5" id="descricaocurso">Neste curso vai poder aprender um pouco das várias técnicas de agricultura e adubagem.</textarea>
-					</div>
-					<div class="form-group">
-						<label for="nomecurso">Tópico do curso:</label>
-						<input type="text" class="form-control" id="topicocurso" value="Agricultura">
-					</div>
-					<div class="form-group">
-						<label for="nomecurso">Preço a aplicar a novas inscrições (€):</label>
-						<input type="text" class="form-control" id="nomecurso" value="0,00">
+						<label for="nomecurso">Título da aula:</label>
+						<input type="text" class="form-control" id="nomecurso" value="">
 					</div>
 					<div class="form-group" role="group">
-						<label for="dificuldadecurso">Dificuldade do curso:&nbsp</label>
-						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Fácil</label>
-						<label class="radio-inline"><input type="radio" name="dificuldadecurso" checked="checked">Médio</label>
-						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Difícil</label>
+						<label for="visibilidadecurso">Visibilidade da aula ao público:&nbsp</label>
+						<label class="radio-inline"><input type="radio" name="visibilidadecurso" checked="checked">Publicada</label>
+						<label class="radio-inline"><input type="radio" name="visibilidadecurso">Oculta</label>
+					</div>
+					<div class="form-group">
+						<label for="descricaocurso">Resumo da aula:</label>
+						<textarea class="form-control" rows="20" id="descricaocurso">
+						</textarea>
 					</div>
 					
-					<div class="form-group" role="group">
-						<label for="visibilidadecurso">Visibilidade do curso ao público:&nbsp</label>
-						<label class="radio-inline"><input type="radio" name="visibilidadecurso" checked="checked">Publicado</label>
-						<label class="radio-inline"><input type="radio" name="visibilidadecurso">Oculto</label>
-					</div>
 					
-					
-					<a href="agriculturainscrito.html"><button type="button" class="btn btn-default">Cancelar alterações às informações</button></a>
-					<a href="agriculturainscrito.html"><button type="button" class="btn btn-primary pull-right">Confirmar alterações às informações</button></a>
-					
-					<hr>
-					
-					<h4>Aulas do curso:</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 1 - Noções básicas</div>
-								<div class="col-md-1">4:20</div>
-								<div class="col-md-2">Publicada</div>
-								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 2 - Preparar a terra</div>
-								<div class="col-md-1">6:66</div>
-								<div class="col-md-2">Publicada</div>
-								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 3 - Plantar sementes</div>
-								<div class="col-md-1">5:16</div>
-								<div class="col-md-2">Publicada</div>
-								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
-							</div>
-						</li>
-						<li class="list-group-item">
-							<div class="row">
-								<div class="col-md-12">
-									<a href="criaraula.html"><button type="button" class="btn btn-primary pull-right">Adicionar aula</button></a>
-								</div>
-							</div>
-						</li>
-						
-					</ul>
+					<a href="agriculturainscrito.html"><button type="button" class="btn btn-default">Cancelar criação da aula</button></a>
+					<a href="agriculturainscrito.html"><button type="button" class="btn btn-primary pull-right">Confirmar criação do curso</button></a>
 					
 					
                 </div>
 				
 				<div class="col-md-5 pull-right">
                     <div class="row">
-						<h4>Fotografia de capa do curso:</h4>
-						<!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
+						<h4>Fotografia de capa da aula:</h4>
 						<div class="thumbnail">
 							<img src="images/agricultura.jpg" alt="agricultura">
 						</div>
@@ -166,7 +110,7 @@
 					</div>
 					<hr>
 					<div class="row">
-						<h4>Vídeo de introdução do curso:</h4>
+						<h4>Vídeo da aula:</h4>
 						<!--<p>Ver isto http://mrbool.com/how-to-style-the-html-5-video-element-with-javascript-and-css/27683</p>-->
 						<div align="center" class="embed-responsive embed-responsive-16by9">
 							<video controls class="embed-responsive-item">
