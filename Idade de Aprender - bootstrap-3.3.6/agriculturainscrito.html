@@ -38,24 +38,105 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Página inicial <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
+                        <li><a href="search.html"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
                         <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais recentes</a></li>
                     </ul>
-                    <form class="navbar-form navbar-left" role="search">
+                    <form class="navbar-form navbar-left" role="search" action="pesquisa.html">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Procurar curso por nome">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                             </span>
                         </div>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Entrar na conta</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-plus-sign"></i> Criar uma conta</a></li>
+                        <li><a href="#" type="button" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="glyphicon glyphicon-user"></i> Entrar na conta</a></li>
+                        <li><a href="#" type="button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="glyphicon glyphicon-plus-sign"></i>  Criar conta</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+        
+        <br>
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-sm"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">Entrar Conta</h3>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <input type="text" class="form-control form-login" placeholder="Nome Utilizador">
+                                <input type="text" class="form-control form-login" placeholder="Palavra Chave">
+                                    <div class="login-body">
+                                        <label class="checkbox">
+                                            <input type="checkbox"> Guardar dados da Conta
+                                                </label>
+                                    </div>
+                                    </div>
+                        <div class="modal-footer login-footer">
+                            <button class="btn btn-primary" type="submit">Entrar</button>
+                            <button class="btn btn-default" type="button" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-sm">Fechar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-lg"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">Criar Conta</h3>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <p><b>Crie uma conta na nossa plataforma e usufrua de toda a variedade de curso que temos para lhe oferecer.</b></p>
+                            Tipo de Utilizador:
+                            <select>
+                                <option>Aluno</option>
+                                <option>Professor</option>
+                            </select>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+                                <input type="text" class="form-control" placeholder="Nome de Utilizador" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input type="text" class="form-control" placeholder="Palavra Chave" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input type="text" class="form-control" placeholder="Confirmar Palavra Chave" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-earphone"></i></span>
+                                <input type="text" class="form-control" placeholder="Telemóvel" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1">Nome</span>
+                                <input type="text" class="form-control" placeholder="Nome Completo" aria-describedby="basic-addon1">
+                                    </div>
+                            <div class="input-group register-group">
+                                <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-calendar"></i></span>
+                                <input type="text" class="form-control" placeholder="Data de Nascimento DD/MM/AAAA" aria-describedby="basic-addon1">
+                                    </div>
+                            
+                        </div>
+                        <div class="modal-footer register-footer">
+                            <button class="btn btn-primary" type="submit">Criar Conta</button>
+                            <button class="btn btn-default" type="button" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-lg">Fechar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         
         <div class="container">
             <h2>Agricultura para Iniciantes - Introdução</h2>

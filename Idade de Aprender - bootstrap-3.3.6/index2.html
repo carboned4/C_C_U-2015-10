@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-                    <title>Pesquisa - Idade de Aprender</title>
+                    <title>Idade de Aprender - Página Inicial</title>
                     
                     <!-- Bootstrap -->
                     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,9 +37,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> Página inicial <span class="sr-only">(current)</span></a></li>
-                        <li class="active"><a href="search.html"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais recentes</a></li>
+                        <li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i> Página Inicial <span class="sr-only">(current)</span></a></li>
+                        <li><a href="search.html"><i class="glyphicon glyphicon-list" ></i> Cursos por categoria</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-time" ></i> Cursos mais Recentes</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search" action="pesquisa.html">
                         <div class="input-group">
@@ -50,35 +50,36 @@
                         </div>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" type="button" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="glyphicon glyphicon-user"></i> Entrar na conta</a></li>
-                        <li><a href="#" type="button" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="glyphicon glyphicon-plus-sign"></i>  Criar conta</a></li>
+                        <li><a href="contapessoal.html" type="button"><i class="glyphicon glyphicon-user"></i> Consultar conta</a></li>
+                        <li><a href="index.html" type="button"><i class="glyphicon glyphicon-plus-sign"></i>  Sair da conta</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-        
         <br>
         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-sm"><span aria-hidden="true">&times;</span></button>
-                        <h3 class="modal-title">Entrar Conta</h3>
+                        <form action="contapessoal.html">
+                        <button type="submit" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </form>
+                        <h3 class="modal-title">Consultar Conta</h3>
                     </div>
                     <form>
-                        <div class="modal-body">
-                            <input type="text" class="form-control form-login" placeholder="Nome Utilizador">
-                                <input type="text" class="form-control form-login" placeholder="Palavra Chave">
-                                    <div class="login-body">
-                                        <label class="checkbox">
-                                            <input type="checkbox"> Guardar dados da Conta
-                                                </label>
-                                    </div>
-                                    </div>
-                        <div class="modal-footer login-footer">
-                            <button class="btn btn-primary" type="submit">Entrar</button>
-                            <button class="btn btn-default" type="button" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-sm">Fechar</button>
+                    <div class="modal-body">
+                        <input type="text" class="form-control form-login" placeholder="Nome Utilizador">
+                        <input type="text" class="form-control form-login" placeholder="Palavra Chave">
+                        <div class="login-body">
+                            <label class="checkbox">
+                                <input type="checkbox"> Guardar dados da Conta
+                            </label>
                         </div>
+                    </div>
+                    <div class="modal-footer login-footer">
+                        <button class="btn btn-primary" type="submit">Entrar</button>
+                        <button class="btn btn-default" type="button" data-dismiss="modal" aria-label="Close" data-target=".bs-example-modal-sm">Fechar</button>
+                    </div>
                     </form>
                 </div>
             </div>
@@ -94,7 +95,7 @@
                     <form>
                         <div class="modal-body">
                             <p><b>Crie uma conta na nossa plataforma e usufrua de toda a variedade de curso que temos para lhe oferecer.</b></p>
-                            Tipo de Utilizador:
+                            Tipo de Utilizador: 
                             <select>
                                 <option>Aluno</option>
                                 <option>Professor</option>
@@ -102,31 +103,31 @@
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
                                 <input type="text" class="form-control" placeholder="Nome de Utilizador" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span>
                                 <input type="text" class="form-control" placeholder="Palavra Chave" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-lock"></i></span>
                                 <input type="text" class="form-control" placeholder="Confirmar Palavra Chave" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
                                 <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-earphone"></i></span>
                                 <input type="text" class="form-control" placeholder="Telemóvel" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1">Nome</span>
                                 <input type="text" class="form-control" placeholder="Nome Completo" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             <div class="input-group register-group">
                                 <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-calendar"></i></span>
                                 <input type="text" class="form-control" placeholder="Data de Nascimento DD/MM/AAAA" aria-describedby="basic-addon1">
-                                    </div>
+                            </div>
                             
                         </div>
                         <div class="modal-footer register-footer">
@@ -137,103 +138,71 @@
                 </div>
             </div>
         </div>
-		
+        
         <div class="container">
             
             <div class="row">
                 
-                <div class="col-sm-4 col-md-3 col-lg-2">
-                    <h4>Temas de cursos:</h4>
-                    <div class="panel-group" id="accordion">
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ar livre</a>
-							</h4>
-						  </div>
-						  <div id="collapse1" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Agricultura</li>
-								<li class="list-group-item">Caça</li>
-								<li class="list-group-item">Pesca</li>
-						    </ul>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Saúde</a>
-							</h4>
-						  </div>
-						  <div id="collapse2" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Alimentação</li>
-								<li class="list-group-item">Primeiros socorros</li>
-								<li class="list-group-item">Reanimação</li>
-						    </ul>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-							<h4 class="panel-title">
-							  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Tecnologia</a>
-							</h4>
-						  </div>
-						  <div id="collapse3" class="panel-collapse collapse">
-							<ul class="list-group">
-								<li class="list-group-item">Aplicações de lazer</li>
-								<li class="list-group-item">Programas de escritório</li>
-								<li class="list-group-item">Redes sociais</li>
-						    </ul>
-						  </div>
-						</div>
-					</div> 
+                <div class="col-md-6">
+                    <div align="center" class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src=movies/welcome.mp4 type=video/mp4>
+                        </video>
+                    </div>
                 </div>
                 
-                <div class="col-sm-8 col-md-9 col-lg-10">
-                    <h2>Resultados da pesquisa</h2>
+                <div class="col-md-4">
+                    <h2>Idade de aprender</h2>
                     
-					<div class="row">
-						<a href="agriculturainiciantes.html" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/agricultura.jpg" alt="agricultura">
-										<div class="caption">
-											<h4>Agricultura para Iniciantes</4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Agricultura</h6>
-											<p>Neste curso vai poder aprender um pouco das várias técnicas de agricultura e adubagem.</p>
-										</div>
-								</div>
-							</div>
-						</a>
-						<a href="#" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/socorros.jpg" alt="Primeiros socorros">
-										<div class="caption">
-											<h4>Curso de primeiros socorros</h4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
-											<p>Neste curso vai poder aprender técnicas básicas de reanimação e cuidados médicos básicos.</p>
-										</div>
-								</div>
-							</div>
-						</a>
-						<a href="#" >
-							<div class="col-sm-6 col-md-4">
-								<div class="thumbnail">
-									<img src="images/alimentacao.jpg" alt="Alimentacao">
-										<div class="caption">
-											<h4>Alimentação e estilo de vida saudável</h4>
-											<h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
-											<p>Neste curso vai aprender a fazer receitas saudáveis e práticas para o seu dia-a-dia e o seu estilo de vida.</p>
-										</div>
-								</div>
-							</div>
-						</a>
-					</div>
+                    <p class="text-justify">Bem-vindo à nossa plataforma de cursos online!</p>
+                    <p class="text-justify">Connosco vai poder frequentar os mais variados cursos.
+                    Visualize o nosso vídeo introdutório, onde explicamos como se pode inscrever na nossa plataforma e como pode frequentar os nossos cursos.</p>
+                    <p class="text-justify">Se tiver mais dúvidas, por favor, não exite em contactar-nos, através da janela de dúvidas (posicionada do lado esquerdo) ou então através do telefone ou email.</p>
                 </div>
             </div>
             
+            <br>
+            
+            <div class="row">
+                <h2>Cursos Populares</h2>
+                <br>
+                <a href="agriculturainiciantes.html" >
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/agricultura.jpg" alt="agricultura">
+                                <div class="caption">
+                                    <h4>Agricultura para Iniciantes</4>
+                                    <h6>&emsp; &emsp; &emsp; Tópico: Agricultura</h6>
+                                    <p>Neste curso vai poder aprender um pouco das várias técnicas de agricultura e adubagem.</p>
+                                </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" >
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/socorros.jpg" alt="Primeiros socorros">
+                                <div class="caption">
+                                    <h4>Curso de primeiros socorros</h4>
+                                    <h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
+                                    <p>Neste curso vai poder aprender técnicas básicas de reanimação e cuidados médicos básicos.</p>
+                                </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" >
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/alimentacao.jpg" alt="Alimentacao">
+                                <div class="caption">
+                                    <h4>Alimentação e estilo de vida saudável</h4>
+                                    <h6>&emsp; &emsp; &emsp; Tópico: Saúde</h6>
+                                    <p>Neste curso vai aprender a fazer receitas saudáveis e práticas para o seu dia-a-dia e o seu estilo de vida.</p>
+                                </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
             
             <hr>
             
@@ -261,7 +230,7 @@
             
             <hr>
             
-            <footer>
+            <footer class="footer">
                 <p class="text-align-center">&copy; 2015-2016 Grupo 10</p>
             </footer>
         </div> <!-- /container -->
