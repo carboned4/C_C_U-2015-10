@@ -80,14 +80,14 @@
 						<input type="text" class="form-control" id="nomecurso" value="0,00">
 					</div>
 					<div class="form-group" role="group">
-						<label for="dificuldadecurso">Dificuldade do curso:&nbsp</label>
+						<label for="dificuldadecurso">Dificuldade do curso:&nbsp;</label>
 						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Fácil</label>
 						<label class="radio-inline"><input type="radio" name="dificuldadecurso" checked="checked">Médio</label>
 						<label class="radio-inline"><input type="radio" name="dificuldadecurso">Difícil</label>
 					</div>
 					
 					<div class="form-group" role="group">
-						<label for="visibilidadecurso">Visibilidade do curso ao público:&nbsp</label>
+						<label for="visibilidadecurso">Visibilidade do curso ao público:&nbsp;</label>
 						<label class="radio-inline"><input type="radio" name="visibilidadecurso" checked="checked">Publicado</label>
 						<label class="radio-inline"><input type="radio" name="visibilidadecurso">Oculto</label>
 					</div>
@@ -102,8 +102,8 @@
 					<ul class="list-group">
 						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 1 - Noções básicas</div>
+								<div class="col-md-2">Aula 1</div>
+								<div class="col-md-5">Noções básicas</div>
 								<div class="col-md-1">4:20</div>
 								<div class="col-md-2">Publicada</div>
 								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
@@ -111,8 +111,8 @@
 						</li>
 						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 2 - Preparar a terra</div>
+								<div class="col-md-2">Aula 2</div>
+								<div class="col-md-5">Preparar a terra</div>
 								<div class="col-md-1">6:66</div>
 								<div class="col-md-2">Publicada</div>
 								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
@@ -120,8 +120,8 @@
 						</li>
 						<li class="list-group-item">
 							<div class="row">
-								<div class="col-md-1">img</div>
-								<div class="col-md-6">Aula 3 - Plantar sementes</div>
+								<div class="col-md-2">Aula 3</div>
+								<div class="col-md-5">Plantar sementes</div>
 								<div class="col-md-1">5:16</div>
 								<div class="col-md-2">Publicada</div>
 								<a href="editaraula.html"><div class="col-md-2">Editar</div></a>
@@ -147,16 +147,17 @@
 						<div class="thumbnail">
 							<img src="images/agricultura.jpg" alt="agricultura">
 						</div>
-						<form class="navbar-form navbar-left" role="search">
+						<form>
+                            <label for="fotoupload">Escolher fotografia do computador:</label>
 							<div class="input-group">
-								<label for="fotoupload">Escolher fotografia do computador:</label>
 								<input type="text" class="form-control" placeholder="C:\Windows\System32" id="fotoupload">
 								<span class="input-group-btn">
 									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-folder-open"></i></button>
 								</span>
 							</div>
+                            <br>
+                            <label for="fotoupload">Escolher fotografia da Internet:</label>
 							<div class="input-group">
-								<label for="fotoupload">Escolher fotografia da Internet:</label>
 								<input type="text" class="form-control" placeholder="http://imgur.com/" id="fotoupload">
 								<span class="input-group-btn">
 									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-link"></i></button>
@@ -173,16 +174,18 @@
 								<source src=movies/welcome.mp4 type=video/mp4>
 							</video>
 						</div>
-						<form class="navbar-form navbar-left" role="search">
+                        <br>
+						<form>
+                            <label for="fotoupload">Escolher vídeo do computador:</label>
 							<div class="input-group">
-								<label for="fotoupload">Escolher vídeo do computador:</label>
 								<input type="text" class="form-control" placeholder="C:\Windows\System32" id="fotoupload">
 								<span class="input-group-btn">
 									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-folder-open"></i></button>
 								</span>
 							</div>
+                            <br>
+                            <label for="fotoupload">Escolher vídeo da Internet:</label>
 							<div class="input-group">
-								<label for="fotoupload">Escolher vídeo da Internet:</label>
 								<input type="text" class="form-control" placeholder="http://www.youtube.com/" id="fotoupload">
 								<span class="input-group-btn">
 									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-link"></i></button>
