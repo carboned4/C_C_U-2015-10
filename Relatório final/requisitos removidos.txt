@@ -1,0 +1,18 @@
+Requisito – ID: F9
+Descrição: Deve poder classificar-se os cursos.
+Justificação: Um sistema de classificações de cursos permite que utilizadores que ainda não utilizaram um curso saibam o que esperar em termos de qualidade.
+Critério de ajuste: Poder classificar-se os cursos e ver a sua classificação, por exemplo de 0 a 5 estrelas ou com uma crítica por escrito.
+Fonte: 
+Satisfação/Insatisfação: 3/2
+Dependências: nada
+Suporte: nada
+
+
+Requisito – ID: D2
+Descrição: Conteúdos sobre as aulas devem ser revistos no fim do curso, ou em períodos de tempo considerados, para casos de actualização sobre a matéria da aula.
+Justificação: É importante manter a veracidade do conteúdo das aulas, para não perder a confiança dos utilizadores.
+Critério de ajuste: São feitas verificações aos conteúdos.
+Fonte: 
+Satisfação/Insatisfação: 3/3
+Dependências: nada
+Suporte: nada
